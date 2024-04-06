@@ -15,6 +15,12 @@ img{
      height: 100%;
      object-fit: contain;
 }
+.btn-primary{
+     background-color: #0d2b41!important;
+     color: #fff!important;
+     border: none;
+     outline: none;
+}
 nav{
      height: 10vh;
      align-items: center;
@@ -40,18 +46,58 @@ nav{
           }
      }
 }
+.featuredCartegories{
+     text-align: center;
+     padding: 0 50px;
+     .h1{
+          font-size: 3rem;
+          font-weight: 700;
+          text-transform: capitalize;
+     }
+     .h5{
+          font-size: 1.5rem;
+          font-weight: 400;
+     }
+     .cartegories{
+          grid-template-columns: repeat(6,1fr);
+          gap: 20px;
+          .text{
+               background-color: #fff;
+               padding: 5px 15px;
+               font-weight: 600;
+          }
+          .cart1{
+               background: url(media/cartegories/post1.jpg);
+          }
+          .cart2{
+               background: url(media/cartegories/post2.jpg);
+          }
+          .cart3{
+               background: url(media/cartegories/post3.jpg);
+          }
+          .cart4{
+               background: url(media/cartegories/post4.jpg);
+          }
+          .cart5{
+               background: url(media/cartegories/post5.jpg);
+          }
+          .cart6{
+               background: url(media/cartegories/post6.jpg);
+          }
+          .cartrgory{
+               height: 30vh;
+               background-repeat: no-repeat;
+               background-size: cover;
+          }
+
+     }
+}
 .dark-mode{
      right: 0;
      top: 40%;
      button{
           color: #fff!important;
      }
-}
-.btn-primary{
-     background-color: #0d2b41!important;
-     color: #fff!important;
-     border: none;
-     outline: none;
 }
 .searchform{
      background-color: #868686;
@@ -92,3 +138,26 @@ nav{
           border-radius: 50%;
      }
 }
+@media (max-width:1024px) {
+     .featuredCartegories{
+          padding: 0 20px;
+     }
+     .cartegories {
+         grid-template-columns: repeat(3, 1fr)!important;
+     }
+ }
+ @media (max-width:767px) {
+     .cartegories {
+         grid-template-columns: repeat(2, 1fr)!important;
+         gap: 10px;
+     }
+     .subscribe{
+          display: none!important;
+     }
+     .searchBtn{
+          margin-left: 10px;
+          padding: 0 10px;
+          border-left: 1px solid #0d2b41!important;   
+     }
+ }
+ 
