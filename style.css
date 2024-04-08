@@ -4,11 +4,11 @@
      box-sizing: border-box;
      text-decoration: none;
      list-style: none;
-     color: #0d2b41!important;
 }
 body{
      width: 100vw;
      overflow-x: hidden;
+     position: relative;
 }
 img{
      width: 100%;
@@ -21,6 +21,7 @@ img{
      border: none;
      outline: none;
 }
+/* <!-- Navbar --> */
 nav{
      height: 10vh;
      align-items: center;
@@ -46,9 +47,18 @@ nav{
           }
      }
 }
+a, nav-link{    
+     color: #0d2b41!important;
+}
+section{
+     padding: 0 50px;
+}
+/* <!-- featured cartegories --> */
 .featuredCartegories{
      text-align: center;
      padding: 0 50px;
+     margin-bottom: 50px;
+     color: #0d2b41;
      .h1{
           font-size: 3rem;
           font-weight: 700;
@@ -92,6 +102,36 @@ nav{
 
      }
 }
+/* <!-- latest post --> */
+.latestPosts{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     column-gap: 20px;
+     row-gap: 10px;
+     .posts{
+          background-color: #0d2b41;
+          height: max-content;
+          padding: 50px 20px;
+          border-radius: 25px;
+          color: #fff;
+          .headd{
+               gap: 10px;
+          }
+          .line{
+               border: .1px solid #fff;
+               height: 20px;
+          }
+          .tittle{
+               word-wrap: normal;
+               width: 80%;
+               font-size: 30px;
+               font-weight: 900;
+          }
+     }
+     .author{
+          font-weight: 700;
+     }
+} 
 .dark-mode{
      right: 0;
      top: 40%;
@@ -108,6 +148,7 @@ nav{
      justify-content: center;
      align-items: center;
      border-radius: 0 0 50px 50px;
+     top: 10%!important;
      form{
           width: 40%;
           height: 20%;
