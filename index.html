@@ -15,39 +15,39 @@
 <body>
      <!-- Navbar -->
      <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="media/logo.png">mebo</a>
-            <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse  navbar-collapse" id="navbarNav">
-                <ul class="m-auto align-items-center navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                         <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Pages
-                              </button>
-                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                   <li><a class="dropdown-item" href="#">Tages</a></li>
-                                   <li><a class="dropdown-item" href="#">Authors</a></li>
-                                   <li><a class="dropdown-item" href="#">Technology</a></li>
-                              </ul>
-                          </div>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex align-items-center gap-3 buttons">
-                    <button class="fas searchBtn fa-magnifying-glass"></button>
-                    <button class="subscribe btn btn-primary">Subscribe</button>
-            </div>
+          <a class="navbar-brand" href="#"><img src="media/logo.png">mebo</a>
+          <!-- <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse  navbar-collapse" id="navbarNav">
+               <ul class="m-auto align-items-center navbar-nav">
+               <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                    <div class="dropdown">
+                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                         </button>
+                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Tages</a></li>
+                              <li><a class="dropdown-item" href="#">Authors</a></li>
+                              <li><a class="dropdown-item" href="#">Technology</a></li>
+                         </ul>
+                         </div>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+               </li>
+               </ul>
+          </div>
+          <div class="d-flex align-items-center gap-3 buttons">
+               <button class="fas searchBtn fa-magnifying-glass"></button>
+               <button class="subscribe btn btn-primary">Subscribe</button>
+          </div>
      </nav>
 
      <!-- Hero section -->
@@ -75,190 +75,349 @@
      </section>
 
      <!-- featured cartegories -->
-     <section class="featuredCartegories">
-          <div class="h1">Featured Categories</div>
-          <div class="h5">Discover tips, insights, and inspiration to embrace impact on the planet.</div>
-          <div class="cartegories d-grid align-items-center justify-content-center">
-               <div class="d-flex align-items-center justify-content-center cartrgory cart1">
-                    <div class="text-center text-capitalize text">travel</div>
+     <section class="featuredCartegories py-5">
+          <div class="row">
+               <div class="col-12">
+                    <div class="h1">Featured Categories</div>
+                    <div class="h5 mb-5">Discover tips, insights, and inspiration to embrace impact on the planet.</div>
                </div>
-               <div class="d-flex align-items-center justify-content-center cartrgory cart2">
-                    <div class="text-center text-capitalize text">studies</div>
-               </div>
-               <div class="d-flex align-items-center justify-content-center cartrgory cart3">
-                    <div class="text-center text-capitalize text">food</div>
-               </div>
-               <div class="d-flex align-items-center justify-content-center cartrgory cart4">
-                    <div class="text-center text-capitalize text">fashion</div>
-               </div>
-               <div class="d-flex align-items-center justify-content-center cartrgory cart5">
-                    <div class="text-center text-capitalize text">photos</div>
-               </div>
-               <div class="d-flex align-items-center justify-content-center cartrgory cart6">
-                    <div class="text-center text-capitalize text">lifstyle</div>
+               <div class="col-12">
+                    <div class="cartegories d-grid align-items-center justify-content-center">
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart1">
+                              <div class="text-center text-capitalize text">travel</div>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart2">
+                              <div class="text-center text-capitalize text">studies</div>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart3">
+                              <div class="text-center text-capitalize text">food</div>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart4">
+                              <div class="text-center text-capitalize text">fashion</div>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart5">
+                              <div class="text-center text-capitalize text">photos</div>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center cartrgory cart6">
+                              <div class="text-center text-capitalize text">lifstyle</div>
+                         </div>
+                    </div>
                </div>
           </div>
      </section>
 
      <!-- latest post -->
-     <section class="latestPosts">
-          <div class="d-flex flex-column gap-4 posts post9">
-               <div class="headd d-flex align-items-center">
-                    <div class="by text-capitalize">by <span class="author">Ariyan Khan</span></div>
-                    <div class="lines d-flex gap-1">
-                              <div class="line"></div>
-                              <div class="line"></div>
+     <section class="latestPosts py-5">
+          <div class="row">
+               <div class="col-8 blogs">
+                    <div class="row">
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps1">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps2">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps3">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps4">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps5">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps6">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps7">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps8">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps9">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="blog my-3">
+                                   <div class="topps topps0">
+                                        <div class="types">Lifestyle</div>
+                                   </div>
+                                   <div class="story">
+                                        <div class="d-flex align-items-center abouu">
+                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                             <div class="author">John Doe</div>
+                                             <div class="dot"></div>
+                                             <div class="date">12 Oct 2021</div>
+                                        </div>
+                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                                   </div>
+                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
                </div>
-               <div class="tittle text-capitalize">The Future of Technology Unveiling the Trends Shaping Our Tomorrow</div>
-               <div class="cartegoryy text-uppercase">Technology</div>
+               <div class="col-4 posts">
+                    <div class="row">
+                         <div class="col-12 my-3">
+                              <div class="card bg-transparent text-center p-4">
+                                   <h4 class="mb-4">Tag Clouds</h4>
+                                   <div class="tag-btns">
+                                        <button class="btn tag-btn">#Audio</button>
+                                        <button class="btn tag-btn">#Content</button>
+                                        <button class="btn tag-btn">#Featured</button>
+                                        <button class="btn tag-btn">#Image</button>
+                                        <button class="btn tag-btn">#Inspiration</button>
+                                        <button class="btn tag-btn">#Lifestyle</button>
+                                        <button class="btn tag-btn">#Photo</button>
+                                        <button class="btn tag-btn">#Pick</button>
+                                        <button class="btn tag-btn">#Slide</button>
+                                        <button class="btn tag-btn">#Trending</button>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 my-3">
+                              <div class="card bg-transparent text-center p-4 d-grid gap-4 newsletter">
+                                   <h4 class="mb-4">Newsletter</h4>
+                                   <form action="../Blog-Site/index.html" class="news-form d-grid gap-3">
+                                        <input type="text" placeholder="Email Address" class="form-control">
+                                        <button class="btn">Sign Up</button>
+                                   </form>
+                                   <p>By signing up, you agree to our <a href="#">Privacy Policy</a></p>
+                              </div>
+                         </div>
+                         <div class="col-12 my-3">
+                              <div class="card bg-transparent text-center p-4 d-grid gap-4 newsletter">
+                                   <h4 class="mb-4">Explore Topics</h4>
+                                   <ul class="navbar-nav explore-ul">
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Celebration</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Culture</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Fashion</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Inspiration</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Lifestyle</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Politics</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Trending</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
+                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
+                                                  <i class="fa fa-chevron-right"></i>
+                                                  <b>Beauty</b>
+                                             </a>
+                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
           </div>
-     </section>
-
-     <section class="blog">
-          <div class="gen">
-               <div class="one a">
-                    <div class="d-flex flex-column gap-4 posts post1">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one b">
-                    <div class="d-flex flex-column gap-4 posts post1">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one c">
-                    <div class="d-flex flex-column gap-4 posts post2">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">Ariyan Khan</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">The Future of Technology Unveiling the TrendsTechnology Unveiling the Trends Shaping Our Tomorrow</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one d">
-                    <div class="d-flex flex-column gap-4 posts post3">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one e">
-                    <div class="d-flex flex-column gap-4 posts post4">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">Ariyan Khan</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">The Future of Technology Unveiling the Trends Shaping Our Tomorrow</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one f">
-                    <div class="d-flex flex-column gap-4 posts post5">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one g">
-                    <div class="d-flex flex-column gap-4 posts post6">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one h">
-                    <div class="d-flex flex-column gap-4 posts post7">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">Ariyan Khan</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">The Future of Technology Unveiling the TrendsTechnology Unveiling the Trends Shaping Our Tomorrow</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-               <div class="one i">
-                    <div class="d-flex flex-column gap-4 posts post8">
-                         <div class="headd d-flex align-items-center">
-                              <div class="by text-capitalize">by <span class="author">David</span></div>
-                              <div class="lines d-flex gap-1">
-                                        <div class="line"></div>
-                                        <div class="line"></div>
-                              </div>
-                              <div class="datee text-capitalize">on <span class="date">29 Mar 2024</span></div>
-                         </div>
-                         <div class="tittle text-capitalize">exploring virtual Worlds and Immersive Experiences</div>
-                         <div class="cartegoryy text-uppercase">Technology</div>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <section>
-          <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3">
-               <swiper-slide>Slide 1</swiper-slide>
-               <swiper-slide>Slide 2</swiper-slide>
-               <swiper-slide>Slide 3</swiper-slide>
-               <swiper-slide>Slide 4</swiper-slide>
-               <swiper-slide>Slide 5</swiper-slide>
-               <swiper-slide>Slide 6</swiper-slide>
-               <swiper-slide>Slide 7</swiper-slide>
-               <swiper-slide>Slide 8</swiper-slide>
-               <swiper-slide>Slide 9</swiper-slide>
-          </swiper-container>
      </section>
 
      <!-- Dark mode button with icon -->
