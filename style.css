@@ -513,15 +513,17 @@ section{
      .posts{
           h4{
                position: relative;
+               color: #0d2b41;
           }
           h4:before{
                content: "";
                position: absolute;
                bottom: 0;
+               z-index: -3;
                left: 0;
                height: 10px;
                width: 100%;
-               background: #0d2b41;
+               background: #0d2b415c;
                clip-path: polygon(100%, 50%, 30%, 100%);
           }
           .tag-btn{
