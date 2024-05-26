@@ -26,12 +26,3 @@
           }
      }
 }
-.progress{
-     position: fixed;
-     width: 100vw;
-     z-index: 2000;
-     .progress-bar{
-          width: 25%;
-          background-color: #ff5e3a;
-     }
-}
