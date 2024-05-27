@@ -25,6 +25,24 @@
                }
           }
      }
+     .postBody{
+          
+     }
+     .postFooter{
+          height: 50vh;
+          .gallery{
+               height: 30vh;
+               width: 100%;
+               overflow-x: scroll;
+               border: #ff5e3a 1px dashed;
+               img{
+                    object-fit: contain;
+               }
+          }
+          .gallery::-webkit-scrollbar{
+               display: none;
+          }
+     }
 }
 .progress{
      position: fixed;
