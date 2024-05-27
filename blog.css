@@ -26,7 +26,24 @@
           }
      }
      .postBody{
-          
+          .featuredImg{
+               height: 50vh;
+               width: 100%;
+               img{
+                    object-fit: cover;
+               }
+          }
+          .introduction, .body ,.conclusion{
+               font-size: 16px;
+               line-height: 1.8;
+               color: #484849;
+               font-weight: 300;
+               margin-top: 10px;
+          }
+          .introduction::before, .body::before, .conclusion::before{
+               content: "&nbsp;";
+               color: transparent;
+          }
      }
      .postFooter{
           height: 50vh;
