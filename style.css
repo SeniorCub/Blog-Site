@@ -554,6 +554,9 @@ section{
           a{
                color: #ff5e3a !important;
           }
+          textarea{
+               border-radius: 20px!important;
+          }
      }
      .explore-ul{
           li{
