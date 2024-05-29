@@ -1,0 +1,33 @@
+.gand{
+     height: 100%;
+     background:  url(media/catigory/grant-ritchie-1154815-unsplash-750x540.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     border-radius: 30px;
+     .extt{
+          padding-top: 35%;
+          background: #20355699;
+          height: 100%;
+          left: 0;
+          top: 0;
+          position: absolute;
+          width: 100%;
+          color: #fff;
+          border-radius: 30px;
+          padding-left: 50px;
+          .cartegosy{
+               background-color: #ff5e3a;
+               color: #fff;
+               border-radius: 30px;
+               padding: 1px 10px;
+               width: max-content;
+          }
+          .titll{
+               font-size: 30px;
+               width: 70%;
+               color: #fff;
+               font-weight: 700;
+          }
+     }
+}
