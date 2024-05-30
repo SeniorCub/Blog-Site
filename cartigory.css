@@ -39,5 +39,28 @@
      }
      .ankas{
           border: 1px solid #20355699;
+          border-radius: 30px;
+          .blog{
+               border: none;
+          }
+          .oneee{
+               .imag{
+                    width: 200px;
+                    border-radius: 30px;
+                    img{
+                         border-radius: 10px;
+                    }
+               }
+               .head{
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #0d2b41;
+               }
+               .dateee{
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #20355699;
+               }
+          }
      }   
 }
