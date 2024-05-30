@@ -37,5 +37,7 @@
           font-weight: 700;
           color: #0d2b41;
      }
-          
+     .ankas{
+          border: 1px solid #20355699;
+     }   
 }
