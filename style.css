@@ -417,14 +417,12 @@ section{
      border-radius: 50%;
 }
 /* <!-- latest post --> */
-.latestPosts{
-     .blog{
+.blog{
           height: max-content;
           border: 1px solid #0d2b4158;
           border-radius: 10px;
           display: flex;
           flex-direction: column;
-     }
      .topps{
           position: relative;
           height: 30vh;
