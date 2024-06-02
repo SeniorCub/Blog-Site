@@ -24,6 +24,7 @@ img{
 /* <!-- Navbar --> */
 .navbar{
      height: 10vh;
+     z-index: 1000;
      align-items: center;
      padding: 10px 30px;
      width: 100vw!important;
@@ -36,6 +37,9 @@ img{
                width: 50px;
                object-fit: contain;
           }
+     }
+     .navbar-collapse{
+          z-index: 1000;
      }
      .nav-item{
           cursor: pointer!important;
@@ -417,6 +421,11 @@ section{
      border-radius: 50%;
 }
 /* <!-- latest post --> */
+.headd{
+     font-size: 30px;
+     font-weight: 700;
+     color: #0d2b41;
+}
 .blog{
           height: max-content;
           border: 1px solid #0d2b4158;
@@ -582,54 +591,6 @@ section{
           }
      }
 }
-.dark-mode{
-     right: 0;
-     top: 40%;
-     button{
-          color: #fff!important;
-     }
-}
-.searchform{
-     background-color: #868686;
-     width: 100vw;
-     height: 60vh;
-     position: absolute;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     z-index: 1000;
-     border-radius: 0 0 50px 50px;
-     top: 10vh!important;
-     form{
-          width: 40%;
-          height: 20%;
-          background-color: #d7d7d7;
-          border-radius: 30px;
-          padding-right: 10px;
-     }
-     input{
-          background-color: transparent;
-          border: none;
-          text-indent: 20px;
-          width: 94%;
-          height: 100%;
-          font-size: 1.5rem;
-          outline: none;
-     }
-     button{
-          border: none;
-          outline: none;
-          background-color: transparent;
-          font-size: 1.5rem;
-     }
-     .close{
-          top: 5%;
-          right: 5%;
-          border: 1px solid #0d2b41;
-          padding: 10px;
-          border-radius: 50%;
-     }
-}
 @media (max-width:1024px) {
      .featuredCartegories{
           padding: 0 20px;
@@ -643,9 +604,6 @@ section{
      .cartegories {
          grid-template-columns: repeat(2, 1fr)!important;
          gap: 10px;
-     }
-     .subscribe{
-          display: none!important;
      }
      .searchBtn{
           margin-left: 10px;
@@ -677,7 +635,7 @@ section{
                justify-content: center;
                align-items: center;
            }
-           .col-4, .col-8{
+           .posts, .blogs{
                width: 90%;
            }
      }

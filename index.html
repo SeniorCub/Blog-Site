@@ -14,39 +14,13 @@
 </head>
 <body>
      <!-- Navbar -->
-     <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="media/logo.png">mebo</a>
-          <!-- <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <div class="collapse  navbar-collapse" id="navbarNav">
-               <ul class="m-auto align-items-center navbar-nav">
-               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                    <div class="dropdown">
-                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              Pages
-                         </button>
-                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">Tages</a></li>
-                              <li><a class="dropdown-item" href="#">Authors</a></li>
-                              <li><a class="dropdown-item" href="#">Technology</a></li>
-                         </ul>
-                         </div>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-               </li>
-               </ul>
-          </div>
-          <div class="d-flex align-items-center gap-3 buttons">
-               <button class="fas searchBtn fa-magnifying-glass"></button>
-               <button class="subscribe btn btn-primary">Subscribe</button>
+     <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#"><img src="media/logo.png">mebo</a>
+               <form class="d-flex" role="search">
+                    <button class="subscribe btn btn-primary me-2" type="submit">Sign Up</button>
+                    <button class="subscribe btn btn-primary" type="submit">LogIn</button>
+               </form>
           </div>
      </nav>
 
@@ -75,7 +49,7 @@
      </section>
 
      <!-- featured cartegories -->
-     <section class="featuredCartegories py-5">
+     <section class="featuredCartegories py-3">
           <div class="row">
                <div class="col-12">
                     <div class="h1">Featured Categories</div>
@@ -84,22 +58,22 @@
                <div class="col-12">
                     <div class="cartegories d-grid align-items-center justify-content-center">
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart1">
-                              <div class="text-center text-capitalize text">travel</div>
+                              <div class="text-center text-capitalize text">AfroBeats</div>
                          </a>
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart2">
-                              <div class="text-center text-capitalize text">studies</div>
+                              <div class="text-center text-capitalize text">Hip Hop</div>
                          </a>
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart3">
-                              <div class="text-center text-capitalize text">food</div>
+                              <div class="text-center text-capitalize text">R & B</div>
                          </a>
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart4">
-                              <div class="text-center text-capitalize text">fashion</div>
+                              <div class="text-center text-capitalize text">Amapiano</div>
                          </a>
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart5">
-                              <div class="text-center text-capitalize text">photos</div>
+                              <div class="text-center text-capitalize text">Reggae</div>
                          </a>
                          <a href="/cartigory.html" class="d-flex align-items-center justify-content-center cartrgory cart6">
-                              <div class="text-center text-capitalize text">lifstyle</div>
+                              <div class="text-center text-capitalize text">Gospel</div>
                          </a>
                     </div>
                </div>
@@ -107,14 +81,27 @@
      </section>
 
      <!-- latest post -->
-     <section class="latestPosts py-5">
+     <section class="latestPosts py-2">
           <div class="row downnn">
+               <!-- Trending Posts -->
                <div class="col-8 blogs">
+                    <div class="d-flex flex-column headd">
+                         <h4 class="headd mb-3">Trending Posts</h4>
+                         <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                              <stop offset="0%" stop-color="#FE4F70"></stop>
+                              <stop offset="100%" stop-color="#FFA387"></stop>
+                              </linearGradient>
+                              </defs>
+                              <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+                         </svg>
+                    </div>
                     <div class="row">
                          <div class="col-6">
                               <div class="blog my-3">
                                    <div class="topps topps1">
-                                        <div class="types">Lifestyle</div>
+                                        <div class="types">R & B</div>
                                    </div>
                                    <div class="story">
                                         <div class="d-flex align-items-center abouu">
@@ -135,7 +122,7 @@
                          <div class="col-6">
                               <div class="blog my-3">
                                    <div class="topps topps2">
-                                        <div class="types">Lifestyle</div>
+                                        <div class="types">AfroBeats</div>
                                    </div>
                                    <div class="story">
                                         <div class="d-flex align-items-center abouu">
@@ -156,7 +143,7 @@
                          <div class="col-6">
                               <div class="blog my-3">
                                    <div class="topps topps3">
-                                        <div class="types">Lifestyle</div>
+                                        <div class="types">Gospel</div>
                                    </div>
                                    <div class="story">
                                         <div class="d-flex align-items-center abouu">
@@ -177,133 +164,7 @@
                          <div class="col-6">
                               <div class="blog my-3">
                                    <div class="topps topps4">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps5">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps6">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps7">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps8">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps9">
-                                        <div class="types">Lifestyle</div>
-                                   </div>
-                                   <div class="story">
-                                        <div class="d-flex align-items-center abouu">
-                                             <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
-                                             <div class="author">John Doe</div>
-                                             <div class="dot"></div>
-                                             <div class="date">12 Oct 2021</div>
-                                        </div>
-                                        <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
-                                        <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
-                                   </div>
-                                   <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
-                                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
-                                        <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-6">
-                              <div class="blog my-3">
-                                   <div class="topps topps0">
-                                        <div class="types">Lifestyle</div>
+                                        <div class="types">Amapiano</div>
                                    </div>
                                    <div class="story">
                                         <div class="d-flex align-items-center abouu">
@@ -323,26 +184,27 @@
                          </div>
                     </div>
                </div>
-               <div class="col-4 posts">
+               <div class="col-4 posts my-lg-5 py-lg-5">
                     <div class="row">
-                         <div class="col-12 my-3">
+                         <!-- Tags -->
+                         <div class="col-12 my-5">
                               <div class="card bg-transparent text-center p-4">
                                    <h4 class="mb-4">Tag Clouds</h4>
                                    <div class="tag-btns">
-                                        <button class="btn tag-btn">#Audio</button>
-                                        <button class="btn tag-btn">#Content</button>
-                                        <button class="btn tag-btn">#Featured</button>
-                                        <button class="btn tag-btn">#Image</button>
-                                        <button class="btn tag-btn">#Inspiration</button>
-                                        <button class="btn tag-btn">#Lifestyle</button>
-                                        <button class="btn tag-btn">#Photo</button>
-                                        <button class="btn tag-btn">#Pick</button>
-                                        <button class="btn tag-btn">#Slide</button>
-                                        <button class="btn tag-btn">#Trending</button>
+                                        <button class="btn tag-btn">Amapiano</button>
+                                        <button class="btn tag-btn">Gospel</button>
+                                        <button class="btn tag-btn">AfroBeats</button>
+                                        <button class="btn tag-btn">Hip Hop</button>
+                                        <button class="btn tag-btn">R & B</button>
+                                        <button class="btn tag-btn">Regge</button>
+                                        <button class="btn tag-btn">Fuji Music</button>
+                                        <button class="btn tag-btn">HighLife</button>
+                                        <button class="btn tag-btn">Juju</button>
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 my-3">
+                         <!-- Newletter -->
+                         <div class="col-12 my-5">
                               <div class="card bg-transparent text-center p-4 d-grid gap-4 newsletter">
                                    <h4 class="mb-4">Newsletter</h4>
                                    <form action="../Blog-Site/index.html" class="news-form d-grid gap-3">
@@ -352,67 +214,132 @@
                                    <p>By signing up, you agree to our <a href="#">Privacy Policy</a></p>
                               </div>
                          </div>
-                         <div class="col-12 my-3">
-                              <div class="card bg-transparent text-center p-4 d-grid gap-4 newsletter">
-                                   <h4 class="mb-4">Explore Topics</h4>
-                                   <ul class="navbar-nav explore-ul">
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Celebration</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Culture</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Fashion</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Inspiration</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Lifestyle</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Politics</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Trending</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                        <li class="nav-item py-3 d-flex align-items-center justify-content-between">
-                                             <a href="#" class="nav-link d-flex align-items-center gap-3">
-                                                  <i class="fa fa-chevron-right"></i>
-                                                  <b>Beauty</b>
-                                             </a>
-                                             <p class="m-0 p-0">&lbbrk;2&rbbrk;</p>
-                                        </li>
-                                   </ul>
+                    </div>
+               </div>
+               <div class="col-12 blogs row">
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps5">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps6">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps7">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps8">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps9">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-4 col-md-6">
+                         <div class="blog my-3">
+                              <div class="topps topps0">
+                                   <div class="types">Lifestyle</div>
+                              </div>
+                              <div class="story">
+                                   <div class="d-flex align-items-center abouu">
+                                        <div class="authorImg"><img src="media/blogs/dp.jpg" alt=""></div>
+                                        <div class="author">John Doe</div>
+                                        <div class="dot"></div>
+                                        <div class="date">12 Oct 2021</div>
+                                   </div>
+                                   <div class="topic fs-4 fw-bold">Here Are 8 Ways To Success Faster</div>
+                                   <div class="text">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mx-2 p-3 moree">
+                                   <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                                   <div class="options"><i class="fa-solid fa-ellipsis"></i></div>
                               </div>
                          </div>
                     </div>
@@ -420,21 +347,15 @@
           </div>
      </section>
 
-     <!-- Dark mode button with icon -->
-     <div class="position-fixed dark-mode">
-          <button class="btn fas fa-sun btn-dark" id="dark-mode"></button>
-     </div>
+     <footer>
+          <div class="container-fluid">
+               <div class="d-flex justify-content-between">
+                    <!-- Copyright with year of production and a developed by with my portfolio link -->
+                    
+               </div>
+          </div>
+     </footer>
 
-     <!-- search form -->
-     <div class=" searchform">
-          <form action="">
-               <input type="text" placeholder="Search">
-               <button class="fas fa-search"></button>
-          </form>
-          <!-- close button -->
-          <button class="position-absolute close fas fa-times"></button>
-     </div>
-    
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
