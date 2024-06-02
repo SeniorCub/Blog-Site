@@ -1,37 +1,31 @@
-.gand{
-     height: 100%;
-     background:  url(media/catigory/grant-ritchie-1154815-unsplash-750x540.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     border-radius: 30px;
-     .extt{
-          padding-top: 35%;
-          background: #20355699;
-          height: 100%;
-          left: 0;
-          top: 0;
-          position: absolute;
-          width: 100%;
-          color: #fff;
-          border-radius: 30px;
-          padding-left: 50px;
-          .cartegosy{
-               background-color: #ff5e3a;
-               color: #fff;
-               border-radius: 30px;
-               padding: 1px 10px;
-               width: max-content;
-          }
-          .titll{
-               font-size: 30px;
-               width: 70%;
-               color: #fff;
-               font-weight: 700;
-          }
+.carousel, .carousel-inner, .carousel-item{
+     height: 70vh!important;
+     img{
+          object-fit: cover;
      }
 }
-#editors, #trending{
+.extt{
+     background: #20355699;
+     height: 100%;
+     width: 100%;
+     color: #fff;
+     border-radius: 30px;
+     padding: 20px;
+     .cartegosy{
+          background-color: #ff5e3a;
+          color: #fff;
+          border-radius: 30px;
+          padding: 1px 10px;
+          font-size: 20px;
+          width: max-content;
+     }
+     .titll{
+          font-size: 35px;
+          color: #fff;
+          font-weight: 700;
+     }
+}
+#afro, #amapiano, #gospel{
      .headd{
           font-size: 30px;
           font-weight: 700;
@@ -112,7 +106,6 @@
      .topsss{
           border-radius: 30px;
           height: 200px;
-          
           img{
                border-radius: 30px;
           }
@@ -143,5 +136,20 @@
           font-size: 15px;
           font-weight: 600;
           color: #8f9bad;
+     }
+     .blog{
+          border-bottom: 1px solid #20355699!important;
+          padding: 20px 0;
+     }
+}
+@media (max-width:500px) {
+     .col-6{
+          width: 100%;
+     }
+     .gande{
+          margin: 5px 0;
+     }
+     .topsss{
+          display: none;
      }
 }

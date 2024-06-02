@@ -491,11 +491,6 @@ section{
                }
           }
      }
-     .topic:hover{
-          transition: .8s;
-          color: #ff5e3a;
-          cursor: pointer;
-     }
      img{
           width: 100%;
           height: 100%;
@@ -516,6 +511,15 @@ section{
                color: #ff5e3a;
                cursor: pointer;
           }
+     }
+}
+.blog:hover{
+     transition: .8s;
+     transform: scale(1.01);
+     .topic{
+          transition: .8s;
+          color: #ff5e3a;
+          cursor: pointer;
      }
 }
 .col-4{
@@ -590,6 +594,10 @@ section{
                background-color: transparent;
           }
      }
+}
+.card{
+     border-radius: 30px;
+     border: 1px solid #20355699;
 }
 @media (max-width:1024px) {
      .featuredCartegories{
