@@ -93,14 +93,17 @@
      border-radius: 50%;
      padding: 5px;
 }
-.image-space{
+.image-space, .imageCover, .airtistImg{
      height: 30vh;
-     overflow-x: scroll;
      border: #ff5e3a 1px dashed;
      /* display: none; */
      img{
           object-fit: contain;
+          height: 100%;
      }
+}
+.image-space{
+     overflow-x: scroll;
 }
 #uploadnews {
      border: 2px solid #24b4fb;
@@ -126,21 +129,113 @@
      background-color: #fff;
      border-radius: 10px;
      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-     min-height: 50vh;
      height: max-content;
      overflow: hidden;
-     .sideOne{
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-          height: 250px;
-          min-width: 350px;
-     }
      .textss , .head{
           font-size: 25px;
           font-weight: 500;
           font-style: oblique;
           color: #333;
      }
-
+}
+#newss{
+     padding: 20px;
+     .newss {
+          padding: 20px;
+          display: grid;
+          gap: 30px;
+          grid-template-columns: repeat(4,1fr);
+     }
+     .news {
+          padding: 10px;
+          background-color: #c9b2b2;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 20px;
+     }
+     .btns {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+     }
+     .delbutton {
+          position: relative;
+          width: 110px;
+          height: 40px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          border: 1px solid #cc0000;
+          background-color: #e50000;
+          overflow: hidden;
+          .button__icon, .button__text {
+          transition: all 0.3s;
+          }
+          .button__text {
+          color: #fff;
+          transform: translateX(10px);
+          font-weight: 600;
+          }
+          .button__icon {
+          position: absolute;
+          right: 0;
+          height: 100%;
+          width: 35%;
+          background-color: #cc0000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          }
+          .svg {
+          width: 20px;
+          }
+     }
+     .delbutton:hover {
+          background: #cc0000;
+           .button__text {
+          color: transparent;
+        }
+         .button__icon {
+          width: 100%;
+          transform: translateX(0);
+        }
+     }
+        .delbutton:active .button__icon {
+          background-color: #b20000;
+        }
+        
+        .delbutton:active {
+          border: 1px solid #b20000;
+        }
+     .editBtn{
+          border: 1px solid #585769;
+          background-color: #313153;
+          .svg {
+               fill: white;
+          }
+          .button__icon {
+               background-color: #24243e;
+          }
+     }
+     .editBtn:hover {
+          background: #313153;
+     }
+     .editBtn:active .button__icon {
+          background-color: #313153b5;
+     }
+     .title {
+          font-size: 24px;
+          margin-bottom: 10px;
+     }
+     .description{
+          margin-bottom: 5px;
+          font-size: 14px;
+     }
+     .additional-info {
+          font-style: italic;
+     }
 }
