@@ -204,13 +204,12 @@
           transform: translateX(0);
         }
      }
-        .delbutton:active .button__icon {
+     .delbutton:active .button__icon {
           background-color: #b20000;
-        }
-        
-        .delbutton:active {
+     }   
+     .delbutton:active {
           border: 1px solid #b20000;
-        }
+     }
      .editBtn{
           border: 1px solid #585769;
           background-color: #313153;
@@ -223,6 +222,9 @@
      }
      .editBtn:hover {
           background: #313153;
+     }
+     .editBtn:active{
+          border: 1px solid #313153b5;
      }
      .editBtn:active .button__icon {
           background-color: #313153b5;
@@ -237,5 +239,9 @@
      }
      .additional-info {
           font-style: italic;
+     }
+     .content{
+          height: 100px;
+          overflow: hidden;
      }
 }
