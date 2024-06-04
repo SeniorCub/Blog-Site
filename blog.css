@@ -55,9 +55,6 @@
                     object-fit: contain;
                }
           }
-          .gallery::-webkit-scrollbar{
-               display: none;
-          }
           .moee{
                font-size: 15px;
                color: #8f9bad;
